@@ -1,0 +1,74 @@
+copyright: Copyright &copy; 2023 - present <a href="https://github.com/howie6879/gpt123.ai-daily">howie.hu</a>.
+extra:
+  social:
+  - icon: fontawesome/brands/weixin
+    link: https://images-1252557999.file.myqcloud.com/uPic/ETIbMe.jpg
+  - icon: fontawesome/solid/blog
+    link: https://www.howie6879.com
+  - icon: fontawesome/brands/github-alt
+    link: https://github.com/howie6879
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com/howie6879
+  - icon: fontawesome/solid/rss
+    link: https://weekly.howie6879.com/rss/rss.xml
+extra_css:
+- statics/css/ui.css
+- https://gw.alipayobjects.com/os/k/font/lxgwwenkaiscreenr.css
+markdown_extensions:
+- smarty
+- toc:
+    permalink: []
+- admonition
+- def_list
+- codehilite
+nav:
+- 🌈 创刊寄语:
+  - 首页: ./index.md
+- 🐰 2023年:
+  - 04-11 日报: ./2023/04-11.md
+plugins:
+- search:
+    separator: '[\\s\\u200b\\-]'
+- git-revision-date-localized
+repo_name: howie6879/gpt123.ai-daily
+repo_url: https://github.com/howie6879/gpt123.ai-daily
+site_author: howie.hu
+site_description: 老胡的 ChatGPT 日报信息流，为您带来 ChatGPT 相关聚合信息
+site_name: 老胡的 ChatGPT 日报信息流
+site_url: https://gpt123.ai/daily
+theme:
+  custom_dir: overrides
+  favicon: ./statics/images/howie.jpeg
+  features:
+  - content.code.annotate
+  - navigation.expand
+  - navigation.indexes
+  - navigation.sections
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.top
+  - navigation.tracking
+  - search.highlight
+  - search.share
+  - search.suggest
+  font:
+    code: Roboto Mono
+    text: Roboto
+  language: zh
+  logo: ./statics/images/howie.jpeg
+  name: material
+  palette:
+  - accent: indigo
+    primary: white
+    scheme: default
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: Switch to dark mode
+  - accent: black
+    primary: black
+    scheme: slate
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to light mode
+  search_index_only: true
+use_directory_urls: false
