@@ -35,7 +35,7 @@ repo_url: https://github.com/howie6879/gpt123.ai-daily
 site_author: howie.hu
 site_description: 老胡的 ChatGPT 日报信息流，为您带来 ChatGPT 相关聚合信息
 site_name: 老胡的 ChatGPT 日报信息流
-site_url: https://gpt123.ai/daily
+site_url: https://www.gpt123.ai/daily
 theme:
   custom_dir: overrides
   favicon: ./statics/images/howie.jpeg

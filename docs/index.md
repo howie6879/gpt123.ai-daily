@@ -6,7 +6,7 @@
 
 老胡的 ChatGPT 日报信息流，记录我当天看到的有价值的信息。这个项目核心目的在于给我的微信群**老胡的 ChatGPT 日报信息流**做信息留存分享。当前阅读渠道如下：
 
-- [网站](https://gpt123.ai/daily)
+- [网站](https://www.gpt123.ai/daily)
 - [微信群](https://images-1252557999.file.myqcloud.com/uPic/ETIbMe.jpg)：群都超过200人，需要你加我好友拉你进群
 
 ## 交流
