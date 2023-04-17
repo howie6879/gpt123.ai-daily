@@ -4,6 +4,7 @@
     Changelog: all notable changes to this file will be documented
 """
 import os
+import sys
 import time
 
 import yaml
@@ -111,7 +112,23 @@ def gen_daily_title(years: int):
     write_mkdocs_config(mkdocs_config)
 
 
+def run():
+    """
+    启动
+    """
+    argv: list = sys.argv
+    script_name = argv[1]
+    if script_name == "gdt":
+        gen_daily_title(2023)
+    elif script_name == "gdf":
+        gen_daily_file()
+    else:
+        print("错误脚本名称")
+        exit()
+
+
 if __name__ == "__main__":
+    run()
     # 生成最新日报
-    gen_daily_title(2023)
+    # gen_daily_title(2023)
     # gen_daily_file()
